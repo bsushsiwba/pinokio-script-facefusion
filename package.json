@@ -1,0 +1,16 @@
+{
+	"name": "facefusion-pinokio",
+	"description": "Industry leading face manipulation platform",
+	"version": "3.0.1",
+	"license": "MIT",
+	"devDependencies":
+	{
+		"@isnotdefined/eslint-config": "9.8.0",
+		"eslint": "8.57.1"
+	},
+	"scripts":
+	{
+		"lint": "eslint . --ext .js",
+		"fix": "npm run lint -- --fix"
+	}
+}
